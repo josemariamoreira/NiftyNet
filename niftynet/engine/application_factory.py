@@ -97,7 +97,9 @@ SUPPORTED_LOSS_SEGMENTATION = {
     "L2Loss":
         'niftynet.layer.loss_segmentation.l2_loss',
     "Huber":
-        'niftynet.layer.loss_segmentation.huber_loss'
+        'niftynet.layer.loss_segmentation.huber_loss',
+    "CrossEntropy_Dice":
+        'niftynet.layer.loss_segmentation.crossentropy_dice'
 }
 
 SUPPORTED_LOSS_REGRESSION = {
